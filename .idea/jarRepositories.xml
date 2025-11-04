@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="maven-central" />
+      <option name="name" value="maven-central" />
+      <option name="url" value="https://dlpbuild02.discsrv.co.za:8883/nexus/repository/maven-central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="legacy-releases" />
+      <option name="name" value="legacy-releases" />
+      <option name="url" value="http://dlpbuild02.discsrv.co.za:8081/nexus/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://dlpbuild02.discsrv.co.za:8883/nexus/repository/maven-central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nova-framework" />
+      <option name="name" value="nova-framework" />
+      <option name="url" value="https://dlpbuild02.discsrv.co.za:8883/nexus/repository/nova-framework/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jaspersoft-third-party" />
+      <option name="name" value="jaspersoft-third-party" />
+      <option name="url" value="https://dlpbuild02.discsrv.co.za:8883/nexus/repository/jaspersoft-third-party/" />
+    </remote-repository>
+  </component>
+</project>
