@@ -17,9 +17,6 @@
     <description>Demo projects for working with Spring Boot and Java</description>
     <url>http://tumiknows.co.za</url>
 
-    <licenses>
-		<license/>
-	</licenses>
 	<developers>
         <developer>
             <name>Tumelo Matima</name>
@@ -29,15 +26,15 @@
             <email>tumi.knows@gmail.com</email>
         </developer>
 	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+
+    <modules>
+        <module>api-exception-demo</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -51,17 +48,20 @@
                 <optional>true</optional>
             </dependency>
             <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <optional>true</optional>
-            </dependency>
-            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
