@@ -6,7 +6,6 @@
         <groupId>co.za.tumiknows</groupId>
         <artifactId>java-workbench</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>co.za.tumiknows</groupId>
     <artifactId>api-exception-demo</artifactId>
