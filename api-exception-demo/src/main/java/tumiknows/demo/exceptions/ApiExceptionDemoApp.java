@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApiExceptionDemoApp {
 
     public static void main(String[] args) {
-        log.info("Exceptions demo started...");
         SpringApplication.run(ApiExceptionDemoApp.class, args);
+        log.info("Exceptions demo started...");
     }
 
 }
